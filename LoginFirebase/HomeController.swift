@@ -87,7 +87,7 @@ class HomeController: UIViewController {
         
         navigationItem.title = "Firebase Login"
         
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "3489-70xdhFoY"), style: .plain, target: self, action: #selector(handleSignOut))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "baseline_arrow_back_white_24dp"), style: .plain, target: self, action: #selector(handleSignOut))
         navigationItem.leftBarButtonItem?.tintColor = .white
         navigationController?.navigationBar.barTintColor = UIColor.mainRed()
         
